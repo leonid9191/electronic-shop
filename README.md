@@ -1,4 +1,4 @@
-# url: 
+# URL: 
 https://electronic-shop-15d4f.web.app/
 
 # ElectronicShop
