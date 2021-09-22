@@ -1,3 +1,6 @@
+url: 
+https://electronic-shop-15d4f.web.app/
+
 # ElectronicShop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
