@@ -1,12 +1,15 @@
 {
   "name": "electronic-shop",
   "version": "0.0.0",
+  "homepage": "https://leonid9191.github.io/electronic-shop",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "private": true,
   "dependencies": {
@@ -31,6 +34,7 @@
     "@angular/compiler-cli": "~12.0.5",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "gh-pages": "^3.2.3",
     "jasmine-core": "~3.7.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
